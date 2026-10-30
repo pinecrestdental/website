@@ -1,0 +1,29 @@
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <strong class="footer-name">Pinecrest Dental Care</strong>
+      <address>
+        {{ site.Params.street }}<br>
+        {{ site.Params.city }}, {{ site.Params.region }} {{ site.Params.postalCode }}<br>
+        <a href="tel:{{ site.Params.phoneLink }}">{{ site.Params.phone }}</a><br>
+        <a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a>
+      </address>
+    </div>
+    <div>
+      <span class="footer-heading">Office hours</span>
+      {{ partial "hours-table.html" . }}
+    </div>
+    <div>
+      <span class="footer-heading">Patients</span>
+      <ul class="footer-links">
+        <li><a href="/services/">Services</a></li>
+        <li><a href="/new-patients/">New patients</a></li>
+        <li><a href="/insurance-financing/">Insurance &amp; financing</a></li>
+        <li><a href="/team/">Our team</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/contact/">Contact &amp; directions</a></li>
+      </ul>
+    </div>
+  </div>
+  <p class="wrap legal">© {{ now.Year }} {{ site.Params.legalName }}. Dental emergencies after hours: call {{ site.Params.phone }} and follow the prompts to reach the dentist on call.</p>
+</footer>

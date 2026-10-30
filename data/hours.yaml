@@ -1,0 +1,14 @@
+- day: Monday
+  hours: "7:00 a.m. – 4:00 p.m."
+- day: Tuesday
+  hours: "7:00 a.m. – 4:00 p.m."
+- day: Wednesday
+  hours: "8:00 a.m. – 5:00 p.m."
+- day: Thursday
+  hours: "7:00 a.m. – 4:00 p.m."
+- day: Friday
+  hours: "7:00 a.m. – 1:00 p.m."
+- day: Saturday
+  hours: "Closed"
+- day: Sunday
+  hours: "Closed"

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 360" width="960" height="360">
+  <rect width="960" height="360" rx="14" fill="#e7efe9"/>
+  <rect y="290" width="960" height="70" fill="#c9d6cf"/>
+  <rect x="250" y="120" width="460" height="170" fill="#f7f3ec" stroke="#1f4d3a" stroke-width="3"/>
+  <path d="M230 120 L480 60 L730 120 Z" fill="#1f4d3a"/>
+  <path d="M410 150 H550 L565 175 H395 Z" fill="#2f6b52"/>
+  <rect x="440" y="180" width="80" height="110" fill="#1f4d3a"/>
+  <circle cx="508" cy="236" r="4" fill="#c8783e"/>
+  <rect x="280" y="160" width="110" height="70" fill="#bcd3e0" stroke="#1f4d3a" stroke-width="3"/>
+  <rect x="570" y="160" width="110" height="70" fill="#bcd3e0" stroke="#1f4d3a" stroke-width="3"/>
+  <line x1="335" y1="160" x2="335" y2="230" stroke="#1f4d3a" stroke-width="3"/>
+  <line x1="625" y1="160" x2="625" y2="230" stroke="#1f4d3a" stroke-width="3"/>
+  <text x="480" y="112" font-family="Georgia, serif" font-size="20" fill="#f7f3ec" text-anchor="middle">PINECREST</text>
+  <g fill="#1f4d3a">
+    <path d="M90 290 L120 210 L108 210 L132 160 L120 160 L145 110 L170 160 L158 160 L182 210 L170 210 L200 290 Z"/>
+    <path d="M770 290 L798 220 L788 220 L810 176 L800 176 L822 132 L844 176 L834 176 L856 220 L846 220 L874 290 Z"/>
+  </g>
+  <rect x="740" y="250" width="40" height="40" rx="6" fill="none" stroke="#5b6662" stroke-width="3"/>
+  <circle cx="750" cy="290" r="10" fill="none" stroke="#5b6662" stroke-width="3"/>
+  <circle cx="772" cy="290" r="10" fill="none" stroke="#5b6662" stroke-width="3"/>
+</svg>

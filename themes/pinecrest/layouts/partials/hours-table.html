@@ -1,0 +1,7 @@
+<table class="hours">
+  <tbody>
+    {{ range hugo.Data.hours }}
+    <tr><th scope="row">{{ .day }}</th><td>{{ .hours }}</td></tr>
+    {{ end }}
+  </tbody>
+</table>

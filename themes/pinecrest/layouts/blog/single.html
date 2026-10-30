@@ -1,0 +1,19 @@
+{{ define "main" }}
+<article class="page">
+  <header class="page-head">
+    <div class="wrap narrow">
+      <p class="eyebrow"><a href="/blog/">Patient education</a></p>
+      <h1>{{ .Title }}</h1>
+      <p class="post-meta">{{ .Date.Format "January 2, 2006" }} · {{ .Params.author }}</p>
+    </div>
+  </header>
+  <div class="wrap narrow prose">
+    {{ .Content }}
+    <aside class="callout">
+      <p><strong>Have a question about your own teeth?</strong> Call us at
+      <a href="tel:{{ site.Params.phoneLink }}">{{ site.Params.phone }}</a> or
+      <a href="/contact/">send us a note</a>. We answer every message within one business day.</p>
+    </aside>
+  </div>
+</article>
+{{ end }}

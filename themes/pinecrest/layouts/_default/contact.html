@@ -1,0 +1,31 @@
+{{ define "main" }}
+<article class="page">
+  <header class="page-head">
+    <div class="wrap narrow">
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.lede }}<p class="lede">{{ . }}</p>{{ end }}
+    </div>
+  </header>
+  <div class="wrap contact-grid">
+    <div class="card">
+      <h2>Call or write</h2>
+      <p class="big"><a href="tel:{{ site.Params.phoneLink }}">{{ site.Params.phone }}</a></p>
+      <p>Fax {{ site.Params.fax }}<br>
+      <a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a></p>
+      <h2>Find us</h2>
+      <address>
+        {{ site.Params.street }}<br>
+        {{ site.Params.city }}, {{ site.Params.region }} {{ site.Params.postalCode }}
+      </address>
+      <p><a href="{{ site.Params.mapsLink }}" rel="noopener">Get directions</a></p>
+    </div>
+    <div class="card">
+      <h2>Office hours</h2>
+      {{ partial "hours-table.html" . }}
+    </div>
+  </div>
+  <div class="wrap narrow prose">
+    {{ .Content }}
+  </div>
+</article>
+{{ end }}

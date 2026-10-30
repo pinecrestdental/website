@@ -1,0 +1,29 @@
+- name: "Dr. Hannah Okafor, DMD"
+  role: "Founding dentist"
+  photo: "/images/team-okafor.svg"
+  bio: >-
+    Hannah opened Pinecrest in 2011 after six years in a community clinic in Salem. She
+    graduated from the OHSU School of Dentistry and does most of our crowns, implant
+    restorations and anxious-patient visits. Off the clock she coaches a U10 Nordic team at
+    Mt. Bachelor and is slowly losing a war with the deer in her garden.
+- name: "Dr. Ben Lindqvist, DDS"
+  role: "Dentist"
+  photo: "/images/team-lindqvist.svg"
+  bio: >-
+    Ben joined in 2018 from a pediatric practice in Spokane, so he sees most of our youngest
+    patients, plus root canals and night guards. He trained at the University of Washington
+    and completed a general practice residency in Tacoma. He rides the Phil's Trail network
+    most mornings before the office opens.
+- name: "Maria Delgado, RDH"
+  role: "Lead hygienist"
+  photo: "/images/team-delgado.svg"
+  bio: >-
+    Maria has cleaned teeth in Bend for nineteen years and has been with Pinecrest since the
+    first week. She runs our periodontal maintenance program and is the reason our patients
+    actually floss. Hablamos español con Maria.
+- name: "Tessa Ruiz"
+  role: "Office manager"
+  photo: "/images/team-ruiz.svg"
+  bio: >-
+    Tessa handles scheduling, insurance pre-authorizations and every billing question. If
+    your plan changed in January, she has probably already called them for you.

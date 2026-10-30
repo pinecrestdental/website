@@ -1,0 +1,28 @@
+{{ define "main" }}
+<article class="page">
+  <header class="page-head">
+    <div class="wrap narrow">
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.lede }}<p class="lede">{{ . }}</p>{{ end }}
+    </div>
+  </header>
+  <div class="wrap">
+    <img class="wide" src="/images/office.svg" width="960" height="360">
+    <ul class="team">
+      {{ range hugo.Data.team }}
+      <li class="person">
+        <img src="{{ .photo }}" alt="Portrait of {{ .name }}" width="160" height="160">
+        <div>
+          <h2>{{ .name }}</h2>
+          <p class="role">{{ .role }}</p>
+          <p>{{ .bio }}</p>
+        </div>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+  <div class="wrap narrow prose">
+    {{ .Content }}
+  </div>
+</article>
+{{ end }}

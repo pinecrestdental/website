@@ -1,0 +1,50 @@
+baseURL = "https://pinecrestdentalcare.com/"
+locale = "en-us"
+title = "Pinecrest Dental Care"
+theme = "pinecrest"
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "term", "rss"]
+
+[params]
+  legalName = "Pinecrest Dental Care, LLC"
+  phone = "(541) 555-0147"
+  phoneLink = "+15415550147"
+  fax = "(541) 382-4179"
+  email = "hello@pinecrestdentalcare.com"
+  street = "2140 NE Wells Acres Rd, Suite 3"
+  city = "Bend"
+  region = "OR"
+  postalCode = "97701"
+  mapsLink = "https://www.google.com/maps/search/?api=1&query=2140+NE+Wells+Acres+Rd+Suite+3+Bend+OR+97701"
+
+[menus]
+  [[menus.main]]
+    name = "Services"
+    pageRef = "/services"
+    weight = 10
+  [[menus.main]]
+    name = "New patients"
+    pageRef = "/new-patients"
+    weight = 20
+  [[menus.main]]
+    name = "Insurance & financing"
+    pageRef = "/insurance-financing"
+    weight = 30
+  [[menus.main]]
+    name = "Our team"
+    pageRef = "/team"
+    weight = 40
+  [[menus.main]]
+    name = "Blog"
+    pageRef = "/blog"
+    weight = 50
+  [[menus.main]]
+    name = "Contact"
+    pageRef = "/contact"
+    weight = 60
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[sitemap]
+  changeFreq = "monthly"

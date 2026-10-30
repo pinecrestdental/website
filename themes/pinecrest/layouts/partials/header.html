@@ -1,0 +1,17 @@
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="/">
+      <img src="/images/logo.svg" alt="Pinecrest Dental Care" width="40" height="40">
+      <span>Pinecrest Dental Care</span>
+    </a>
+    <nav aria-label="Main">
+      <ul class="nav">
+        {{ $current := . }}
+        {{ range site.Menus.main }}
+        <li><a href="{{ .URL }}"{{ if $current.IsMenuCurrent "main" . }} aria-current="page"{{ end }}>{{ .Name }}</a></li>
+        {{ end }}
+      </ul>
+    </nav>
+    <a class="btn btn-small" href="tel:{{ site.Params.phoneLink }}">Call {{ site.Params.phone }}</a>
+  </div>
+</header>
