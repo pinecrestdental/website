@@ -1,5 +1,6 @@
 ---
 title: "What to Expect at Your First Visit"
+aliases: ["/website/blog/first-visit/"]
 date: 2026-03-17
 author: "Tessa Ruiz, office manager"
 description: "A walk-through of a first appointment at a new dental office: paperwork, X-rays, the exam, and the questions worth asking before you leave."

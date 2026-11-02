@@ -1,5 +1,6 @@
 ---
 title: "Why Your Jaw Aches in the Morning"
+aliases: ["/website/blog/teeth-grinding/"]
 date: 2026-06-04
 author: "Dr. Ben Lindqvist, DDS"
 description: "Morning jaw pain, flattened teeth and headaches are common signs of nighttime clenching and grinding. Here's what causes it and when a night guard helps."

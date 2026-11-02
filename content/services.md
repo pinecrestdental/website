@@ -1,5 +1,6 @@
 ---
 title: "Dental Services"
+aliases: ["/website/services/"]
 description: "General, preventive, restorative and emergency dentistry for kids and adults in Bend, Oregon: cleanings, fillings, crowns, implant restorations, root canals, night guards and whitening."
 lede: "Most of what your family needs, done in one office by people who already know your history."
 ---

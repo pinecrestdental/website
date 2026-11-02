@@ -1,0 +1,2 @@
+{{- /* Site-root path of a RelPermalink, without the build's baseURL path (e.g. /website). */ -}}
+{{- return strings.TrimPrefix (strings.TrimSuffix "/" (urls.Parse site.BaseURL).Path) . -}}

@@ -3,10 +3,10 @@
 <script>(function(w,d){var h=null;try{var l=w.localStorage,p=JSON.parse(l.getItem("lv:vp:"+"lv_pub_43l2o3tzd7oej4cye68h2agl")||"[]"),q=(location.pathname||"/").replace(/\/{2,}/g,"/").replace(/(.)\/+$/,"$1");if(!l.getItem("lv:seen:"+"lv_pub_43l2o3tzd7oej4cye68h2agl")||p.indexOf(q)>=0){h=d.createElement("style");h.textContent="html{opacity:0!important}";d.head.appendChild(h)}l.setItem("lv:seen:"+"lv_pub_43l2o3tzd7oej4cye68h2agl","1")}catch(e){}w.__lvReveal=function(){if(h&&h.parentNode)h.parentNode.removeChild(h);h=null};setTimeout(function(){if(h)w.__lvLate=1;w.__lvReveal()},1000);var s=d.createElement("script");s.src="https://lettervisit.com/v.js?k=lv_pub_43l2o3tzd7oej4cye68h2agl";s.async=true;s.setAttribute("data-key","lv_pub_43l2o3tzd7oej4cye68h2agl");s.onerror=w.__lvReveal;d.head.appendChild(s)})(window,document)</script>
 <title>{{ if .IsHome }}{{ site.Title }} | Family Dentist in Bend, Oregon{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
 {{ with .Description }}<meta name="description" content="{{ . }}">{{ end }}
-<link rel="canonical" href="{{ .Permalink }}">
+<link rel="canonical" href="{{ partial "url.html" .RelPermalink }}">
 <meta property="og:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }}{{ end }}">
 <meta property="og:type" content="{{ if eq .Section "blog" }}{{ if .IsPage }}article{{ else }}website{{ end }}{{ else }}website{{ end }}">
-<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:url" content="{{ partial "url.html" .RelPermalink }}">
 <meta property="og:site_name" content="{{ site.Title }}">
 <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="/css/main.css">

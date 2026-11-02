@@ -6,6 +6,9 @@ enableRobotsTXT = true
 disableKinds = ["taxonomy", "term", "rss"]
 
 [params]
+  # Public address of the site, used for canonical URLs and the sitemap even when the build
+  # is run with a different --baseURL (GitHub Pages passes its own project URL).
+  siteURL = "https://pinecrestdentalcare.com"
   legalName = "Pinecrest Dental Care, LLC"
   phone = "(541) 555-0147"
   phoneLink = "+15415550147"

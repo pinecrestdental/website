@@ -1,5 +1,6 @@
 ---
 title: "Contact & Directions"
+aliases: ["/website/contact/"]
 layout: "contact"
 description: "Call, email or visit Pinecrest Dental Care at 2140 NE Wells Acres Rd in Bend, Oregon. Office hours, parking and directions."
 lede: "The fastest way to reach us is by phone. Email works too; we reply within one business day."

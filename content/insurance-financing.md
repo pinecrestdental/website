@@ -1,5 +1,6 @@
 ---
 title: "Insurance & Financing"
+aliases: ["/website/insurance-financing/"]
 lede: "We file every claim for you, check your benefits before you come in, and give you a written estimate before any treatment."
 ---
 

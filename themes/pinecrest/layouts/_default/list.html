@@ -11,7 +11,7 @@
     <ul class="post-list">
       {{ range .Pages.ByDate.Reverse }}
       <li>
-        <a class="post-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <a class="post-title" href="{{ partial "path.html" .RelPermalink }}">{{ .Title }}</a>
         <p class="post-meta">{{ .Date.Format "January 2, 2006" }} · {{ .Params.author }}</p>
         <p>{{ .Summary | plainify }}</p>
       </li>

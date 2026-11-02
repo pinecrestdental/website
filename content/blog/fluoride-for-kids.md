@@ -1,5 +1,6 @@
 ---
 title: "Fluoride for Kids in Bend: What Our Water Does (and Doesn't) Do"
+aliases: ["/website/blog/fluoride-for-kids/"]
 date: 2026-09-15
 author: "Dr. Hannah Okafor, DMD"
 description: "Bend's city water isn't fluoridated. Here's what that means for your children's teeth, and how toothpaste, varnish and sealants fill the gap."

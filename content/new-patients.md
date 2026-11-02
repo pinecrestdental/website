@@ -1,5 +1,6 @@
 ---
 title: "What to Expect at Your First Visit"
+aliases: ["/website/new-patients/"]
 description: "New to Pinecrest Dental Care in Bend? Here's how to book, what to bring, how long your first appointment takes, and what happens in the chair."
 lede: "Your first appointment is about 90 minutes. Here's how it goes, from booking to checkout."
 ---

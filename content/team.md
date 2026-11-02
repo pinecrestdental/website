@@ -1,5 +1,6 @@
 ---
 title: "Meet Our Team"
+aliases: ["/website/team/"]
 layout: "team"
 description: "Meet Dr. Hannah Okafor, Dr. Ben Lindqvist and the hygiene and front-desk team at Pinecrest Dental Care in Bend, Oregon."
 lede: "Twelve people, two dentists, and an average of nine years each at Pinecrest."
