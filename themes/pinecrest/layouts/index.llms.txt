@@ -1,0 +1,24 @@
+{{- define "llms-link" -}}
+- [{{ .Title }}]({{ .Permalink }}){{ with or .Description .Params.lede }}: {{ . }}{{ end }}
+{{ end -}}
+# {{ site.Title }}
+
+> {{ .Description }}
+
+{{ site.Title }} is at {{ site.Params.street }}, {{ site.Params.city }}, {{ site.Params.region }} {{ site.Params.postalCode }}. Phone {{ site.Params.phone }}, email {{ site.Params.email }}.
+
+## Services
+
+{{ with site.GetPage "/services" }}{{ template "llms-link" . }}{{ end }}
+## Pricing
+
+{{ with site.GetPage "/insurance-financing" }}{{ template "llms-link" . }}{{ end }}
+## Patient information
+
+{{ with site.GetPage "/new-patients" }}{{ template "llms-link" . }}{{ end -}}
+{{ with site.GetPage "/team" }}{{ template "llms-link" . }}{{ end -}}
+{{ with site.GetPage "/contact" }}{{ template "llms-link" . }}{{ end }}
+## Guides
+
+{{ with site.GetPage "/blog" }}{{ template "llms-link" . }}{{ end -}}
+{{ range (where site.RegularPages "Section" "blog").ByDate.Reverse }}{{ template "llms-link" . }}{{ end -}}

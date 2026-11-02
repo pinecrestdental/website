@@ -17,6 +17,16 @@ disableKinds = ["taxonomy", "term", "rss"]
   postalCode = "97701"
   mapsLink = "https://www.google.com/maps/search/?api=1&query=2140+NE+Wells+Acres+Rd+Suite+3+Bend+OR+97701"
 
+[outputFormats]
+  [outputFormats.llms]
+    mediaType = "text/plain"
+    baseName = "llms"
+    isPlainText = true
+    notAlternative = true
+
+[outputs]
+  home = ["html", "llms"]
+
 [menus]
   [[menus.main]]
     name = "Services"
